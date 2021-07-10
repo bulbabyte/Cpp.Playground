@@ -14,6 +14,7 @@ int main() {
       cout << "Value: "<< userVals.at(i) << endl;
    }  
    
+   
    // Convert negatives to 0
    for (i = 0; i < NUM_ELEMENTS; ++i) {
       if (userVals.at(i) < 0) {
