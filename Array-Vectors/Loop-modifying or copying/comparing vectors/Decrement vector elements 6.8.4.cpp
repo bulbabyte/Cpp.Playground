@@ -21,7 +21,7 @@ int main() {
 
    /* Your solution goes here  */
   
-  for (i = 0; i <= lowerScores.size() - 1; ++i){
+  for (i = 0; i <= lowerScores.size() - 1; ++i){   // -1 to reach all elements, lowerScores.at(4) not valid
      if (lowerScores.at(i) <= 0){
             lowerScores.at(i) = 0;
      }
