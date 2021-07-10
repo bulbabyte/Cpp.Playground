@@ -14,6 +14,7 @@ int main() {
       cin >> userVals.at(i);
    }
    
+   
    // Convert negatives to 0
    for (i = 0; i < NUM_ELEMENTS; ++i) {
       if (userVals.at(i) < 0) {
