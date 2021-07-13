@@ -32,3 +32,19 @@ int main () {
     return 0; 
 }
 
+
+/* OutPut ~
+
+0: Boston 1: Chicago 2: Los Angeles
+Enter city pair (Ex: 1 2) -- 1 2
+Distance: 2011 miles
+. . .
+0: Boston 1: Chicago 2: Los Angeles
+Enter city pair (Ex 1 2) -- 2 0
+Distance: 2960 miles.
+. . .
+0: Boston 1: Chicago 2: Los Angeles
+Enter city pair (Ex 1 2) -- 1 1
+Distance: 0 miles.
+
+*/
