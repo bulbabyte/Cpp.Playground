@@ -10,7 +10,7 @@ int main () {
     int DrivingDistance[3][3];  // Driving distances
 
     // Initialize distance array
-    DrivingDistances[0][0] = 0;
+    DrivingDistance[0][0] = 0;
     DrivingDistance[0][1] = 960;    // Boston-Chicago
     DrivingDistance[0][2] = 2960;   // Boston- Los Angeles
     DrivingDistance[1][0] = 960;    // Chicago-Boston
@@ -26,8 +26,8 @@ int main () {
     cin >> cityA;
     cin >> cityB;
 
-    cout >> "Distance: " << DrivingDistance[cityA][cityB];
-    cout >> " miles." << endl;
+    cout << "Distance: " << DrivingDistance[cityA][cityB];
+    cout << " miles." << endl;
 
     return 0; 
 }
