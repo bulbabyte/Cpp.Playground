@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+/* Find the maximum value and minimum value in milesTracker. 
+Assign the maximum value to maxMiles, and the minimum value to minMiles. 
+Sample output for the given program:
+Min miles: -10
+Max miles: 40
+*/
+
 int main() {
    const int NUM_ROWS = 2;
    const int NUM_COLS = 2;
