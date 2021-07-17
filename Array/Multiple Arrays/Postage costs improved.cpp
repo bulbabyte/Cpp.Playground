@@ -51,10 +51,10 @@ int main () {
       cout << "Letter is too heavy for USPS first class mail." << endl;
    }
    
-   if (i < NUM_ELEMENTS) {
+   if (i < NUM_ELEMENTS) {          // Stops from outputting outside arrays elements  
       cout << "The next higher weight is " << letterWeights[i] << " with a cost of "<< postageCosts[i] << " cents."; 
    }
    
-   
+
    return 0;
 }
