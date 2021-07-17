@@ -19,5 +19,16 @@ int main () {
     testGrades[3] = 90;
 
     /* Your solution here*/
-    
+
+    sumExtra = 0;
+
+    for (i = 0; i < NUM_VALS; ++i) {
+        if (testGrades[i] > 100) {
+            sumExtra = sumExtra + (testGrades[i] - 100);    // Since starting value of SumExtra is 0; adding it keeps the difference from pervious elements
+        }
+    }
+
+    cout << "sumExtra: " << sumExtra << endl;
+
+    return 0;
 }
