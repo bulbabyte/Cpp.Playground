@@ -1,5 +1,5 @@
 /*
-multiple same-saized arrays are used to store related lists. Below the program will have a list of weights in ounces
+multiple same-sized arrays are used to store related lists. Below the program will have a list of weights in ounces
 and another for postage cost
 */
 
