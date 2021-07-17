@@ -18,7 +18,7 @@ int main () {
     // Determine largest (max) number
     maxVal = userVals[0];               // Largest so far
 
-    for (i = 0, i < NUM_ELEMENTS; ++i) { 
+    for (i = 0; i < NUM_ELEMENTS; ++i) {
         if (userVals[i] > maxVal) {
             maxVal = userVals[i];
         }
