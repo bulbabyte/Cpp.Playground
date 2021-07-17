@@ -8,7 +8,7 @@ int main () {
     int userVals[NUM_ELEMENTS];
     int i = 0;
 
-    cout << "Enter " << NUM_ELEMENTS << " integer values: "
+    cout << "Enter " << NUM_ELEMENTS << " integer values: " << endl;
 
     for (i = 0; i < NUM_ELEMENTS; ++i) {
         cin >> userVals[i];
