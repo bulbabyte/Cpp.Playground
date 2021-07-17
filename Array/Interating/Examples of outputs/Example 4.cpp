@@ -22,5 +22,12 @@ int main() {
 }
 
 /*
+2
+4
+5
+8
 
+The for loop iterates in order, once for each element in the array. 
+If the value is less than 0; the element is mulitplied by -1. So negative values 
+are changed into postive ones and outputted. 
 */
