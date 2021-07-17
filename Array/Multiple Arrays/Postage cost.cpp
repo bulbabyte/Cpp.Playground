@@ -48,7 +48,7 @@ int main () {
        }
    }
 
-   if (!foundWeight) {
+   if (!foundWeight) {              // Any weight over 13oz
        cout << "Letter is too heavy for USPS first class mail." << endl;
    }
 
