@@ -32,7 +32,7 @@ int main () {
    
    
    cin >> userLetterWeight;
-   cout << "Enter letter weight (in ounces): "<< userLetterWeight << endl;
+   cout << "Enter letter weight (in ounces): "<< userLetterWeight << endl;      // Now the user's input would display after on the same line rather than be blank
 
    
    // Postage costs is based on smallest letter weight greater than
@@ -40,18 +40,20 @@ int main () {
    foundWeight = false;
    
    for (i = 0; (i < NUM_ELEMENTS) && (!foundWeight); ++i) {
-      if( userLetterWeight <= letterWeights[i] ) {
-         foundWeight = true;
-         cout << "Postage for USPS first class mail is ";
-         cout << postageCosts[i] << " cents" << endl;
-      }
+        if( userLetterWeight <= letterWeights[i] ) {
+            foundWeight = true;
+            cout << "Postage for USPS first class mail is ";
+            cout << postageCosts[i] << " cents" << endl;
+        }
    }
    
-   if( !foundWeight ) {
+   if (!foundWeight ) {
       cout << "Letter is too heavy for USPS first class mail." << endl;
    }
    
+   if (i < NUM_ELEMENTS) {
       cout << "The next higher weight is " << letterWeights[i] << " with a cost of "<< postageCosts[i] << " cents."; 
+   }
    
    
    return 0;
