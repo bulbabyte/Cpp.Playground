@@ -14,7 +14,7 @@ int main() {
 
     /* Your solution */
 
-    int uGuess;         
+    int uGuess;                 // user input        
 
     for (i = 0; i < NUM_GUESSES; ++i) {
         cin >> uGuess;
