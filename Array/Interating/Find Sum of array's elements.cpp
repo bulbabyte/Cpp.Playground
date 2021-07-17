@@ -11,8 +11,8 @@ int main () {
     cout << "Enter " << NUM_ELEMENTS << " integer value. . ." << endl;
 
     for (i = 0; i < NUM_ELEMENTS; ++i) {
-        cout << "Value: ";
         cin >> userVals[i];
+        cout << "Value: " << userVals[i] << endl;  // Print user's numbers 
     }
 
     // Determine sum
