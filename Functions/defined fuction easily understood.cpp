@@ -42,3 +42,12 @@ int main() {
    
    return 0;
 }
+
+
+
+
+/* Ex: of possible output
+Enter number of steps walked: 1000
+Feet: 3000
+Calories: 50
+*/
