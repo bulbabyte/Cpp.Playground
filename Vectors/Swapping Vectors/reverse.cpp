@@ -8,10 +8,6 @@ using namespace std;
     to: 80 70 60 50 40 30 20 10
 */
 
-#include <iostream>
-#include <vector>
-using namespace std;
-
 int main() {
    const int NUM_ELEMENTS = 8;        // Number of elements
    vector<int> revVctr(NUM_ELEMENTS); // User values
