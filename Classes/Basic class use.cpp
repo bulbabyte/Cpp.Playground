@@ -27,7 +27,7 @@ void PersonInfo::IncNumKids() {
 }
 int main() {
     PersonInfo person1;
-    
+
     person1.SetNumKids(3);
 
     /*solution*/
